@@ -8,8 +8,7 @@
 #### 1. Клонирование репозитория
 
 bash
-git clone https://github.com/ваш_пользователь/ваш_репозиторий.git
-cd ваш_репозиторий 
+git clone https://github.com/AlexanderKotov01/ProjectContractAI.git
 
 
 #### 2. Создание виртуального окружения
@@ -26,7 +25,6 @@ pip install -r requirements.txt
 ### 4. Запустите скрипт для анализа текста договора
 
 python src/error_classification.py
-
 
 ### 5. Output исполнения скрипта
 Вы увидите подобный текст в консоли:
