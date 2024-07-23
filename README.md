@@ -16,7 +16,14 @@ git clone https://github.com/AlexanderKotov01/ProjectContractAI.git
 Рекомендуется использовать виртуальное окружение для управления зависимостями.
 
 python3 -m venv env
-source env/bin/activate  # Для Windows используйте `env\Scripts\activate`
+
+source env/bin/activate  
+
+# Для Windows используйте 
+
+python -m venv env
+
+source env/Scripts/activate
 
 ### 3. Установите необходимые зависимости из файла requirements.txt:
 
