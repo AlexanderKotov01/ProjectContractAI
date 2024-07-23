@@ -1,0 +1,42 @@
+.
+├── README.md
+├── config
+│   └── config.py - ключ API Openai
+├── data -данные для обработки и json файл, использованный для обучения и донастройки BERT модели, которая определяет уровень риска
+│   ├── 38.docx
+│   ├── 45.docx
+│   ├── 8.docx
+│   └── Contract_check.json
+├── logs
+├── models - дообученная модель BERT 
+│   ├── fine-tuned-risk-model
+│   │   ├── config.json
+│   │   ├── model.safetensors
+│   │   ├── special_tokens_map.json
+│   │   ├── tokenizer.json
+│   │   ├── tokenizer_config.json
+│   │   └── vocab.txt
+│   └── results
+│       └── checkpoint-12
+│           ├── config.json
+│           ├── model.safetensors
+│           ├── optimizer.pt
+│           ├── rng_state.pth
+│           ├── scheduler.pt
+│           ├── special_tokens_map.json
+│           ├── tokenizer.json
+│           ├── tokenizer_config.json
+│           ├── trainer_state.json
+│           ├── training_args.bin
+│           └── vocab.txt
+├── project_structure.txt
+├── requirements.txt - необходимые библиотеки для запуска проекта
+├── src
+│   ├── __init__.py
+│   ├── error_classification.py - запуск проекта
+│   ├── file_reader.py - код для чтения файлов
+│   ├── fine_tune_model.py - код для дообучения BERT модели
+│   └── gpt_analysis.py - код для анализа текста при помощи GPT модели
+└── tests
+
+10 directories, 30 files
