@@ -30,6 +30,7 @@ source env/Scripts/activate
 pip install -r requirements.txt
 
 ### 4. Запустите скрипт для анализа текста договора
+Перед запуском обязательно включите VPN - иначе OpenAI не даст скрипту выполниться
 
 python src/error_classification.py
 
