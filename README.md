@@ -55,3 +55,9 @@ python src/error_classification.py
 ### 6. Структура проекта
 
 Структура проекта представлена в файле project_structure.txt
+
+###7. Лицензия
+
+## License
+
+This project is licensed under the Apache License Version 2.0, January 2004 - see the [license.txt] file for details.
